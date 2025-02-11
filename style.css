@@ -1,0 +1,21 @@
+body {
+    background: #333;
+    color: #ccc;
+    font-family: monospace;
+}
+
+a,
+a:visited,
+a:focus {
+    color: #fbbd1a;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fbbd1a;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
