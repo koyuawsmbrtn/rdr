@@ -18,5 +18,9 @@ install:
 	cp $(GRESOURCE_FILE) /usr/share/rdr/
 	cp $(TARGET) /usr/bin
 
+uninstall:
+	rm -rf /usr/share/rdr
+	rm /usr/bin/rdr
+
 all:
 	$(TARGET)
